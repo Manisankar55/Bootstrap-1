@@ -1,0 +1,489 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body {
+  overflow-x: hidden;
+} 
+/*Header Section*/
+#header{
+    background-image: url('./images/michal-kubalczyk-WecngmAT-KY-unsplash.jpg');
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+/*Navbar*/
+.navbar-nav li a{
+    color: #fff !important;
+}
+.navbar-brand{
+    margin-right: none;
+    margin-left: 2rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+.dropdown-menu{
+    background-color: #000;
+}
+.dropdown-colored{
+    background-color: #000 ;
+}
+.dropdown-transparent{
+    background-color: transparent ;
+}
+.dropdown-menu > li > a:hover {
+    background-image: none;
+    background-color:black;
+}
+.navbar{
+    background-color: none;
+}
+.nav-colored { background-color:#000; }
+.nav-transparent { background-color:transparent;}
+.row .col-md-7{
+    padding: 30vh 1vmin;
+    padding-bottom: 20vmin;
+}
+#navbar-collapse{
+  margin-right: 3rem;
+  margin-left: 2rem;
+}
+.navbar-toggler{
+  margin-right: 1.3rem;
+  color: #fff;
+  border: none !important;
+  outline: none !important;
+}
+.navbar-toggler .fas{
+  color: #fff;
+  font-size: 26px;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+.navbar-nav>*{
+padding-left:0.5rem;
+padding-right: 0.5rem;
+}
+
+/*Header Container*/
+.container .col-md-7 h6 {
+    padding: 1vmin;
+    letter-spacing: 4px;
+    font-family: 'Ubuntu', sans-serif;
+    color:rgb(255,255,255,1);
+   
+  }
+  .container .col-md-7 h1 {
+    font-size: 7.5vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+    font-family: 'Ubuntu', sans-serif;
+    color:rgb(255,255,255,1);
+    
+  }
+  .container .col-md-7 p {
+    padding: 1vmin 5vmin;
+    font-family: 'Ubuntu', sans-serif;
+    color:rgb(255,255,255,0.8);
+  }
+  .primary-btn {
+    border-radius: 30px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+  }     
+.carousel-control-prev .fas{
+    padding-top: 50px;
+}
+.carousel-control-next .far{
+    padding-top: 50px;
+} 
+/*Section-1*/
+.section-1 {
+    padding: 5vmin 0vmin;
+  }
+  
+  .section-1 .row .col-md-6 .pray video {
+  
+    width: 70vh;
+    border-radius: 0.2em;
+    height: 70vh;
+  }
+  
+  /*.section-1 .row .col-md-6:last-child {
+    position: relative;
+  }*/
+  
+  .section-1 .row .col-md-6 .panel {
+    /*position: absolute;*/
+    /*top: 0.2vmin;
+    left: -15vmin;*/
+  
+    border-radius: 3px;
+    text-align: left;
+    padding: 10vmin 5vmin 10vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: 'Ubuntu', sans-serif;
+    /*z-index: 1;*/
+    height: 70vh;
+    
+  }
+  .section-1 {
+   /* background: linear-gradient(to right, rgb(0, 0, 70), rgb(28, 181, 224));*/
+   background: linear-gradient(to left, rgb(195, 20, 50), rgb(36, 11, 54));
+  }
+  .section-1 .row .col-md-6 .panel h1 {
+    font-weight: bold;
+    padding: 0.4em 0 !important;
+    font-size: 2em;
+    color: whitesmoke;
+  }
+  
+  .section-1 .row .col-md-6 .panel p {
+    font-size: 0.8rem;
+    color: whitesmoke;
+    
+  }
+  /*Section-2*/
+  .cover{
+    width: 100%;
+    height:55vmin;
+    background: url('./images/joshua-reddekopp-GkFQEOubrCo-unsplash\ \(1\).jpg');
+    background-position: -25rem -19rem;
+    background-size: 100%;
+    position: relative;
+  }
+  .cover .content{
+    background: rgba(0,0,0,0.1);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+  }
+  .cover .content >h1{
+    font-family:'Ubuntu', sans-serif; 
+    color: whitesmoke;
+  }
+  .cover .content >p{
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 2vmin;
+    color: #e5e5e5;
+    
+  }
+  .numbers .rect {
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 13rem;
+    height: 9rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 0.5em;
+    box-shadow: 1px 2px 50px 0px  rgb(192,192,192 ,0.349);
+
+  }
+.numbers {
+    margin-top: -15vmin;
+  }
+.numbers .rect h1 {
+    font-size: 3rem;
+    color:	rgb(0,0,0,1);
+  }
+  .numbers .rect > p {
+    font-family: 'Ubuntu', sans-serif;
+  } 
+/*Purchase Section*/
+  .purchase > h1 {
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+    font-family:'Oswald', sans-serif;
+    
+  }
+  .purchase > p {
+    color: rgb(0,0,0,0.8);
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+  }
+  .cards div {
+    padding: 0;
+    margin: 0;
+    
+  }
+  div .card{
+    width: 18rem;
+    margin: 1rem;
+  }
+  .cards .title {
+    padding: 1.4em 2.5em;
+    font-size: 2vmin;
+  }
+  #Card-text-1{
+    font-family: 'Ubuntu', sans-serif; 
+  }
+  #Card-title-1{
+    font-family: 'Ubuntu', sans-serif; 
+  }
+  #Card-text-2{
+    font-family: 'Ubuntu', sans-serif; 
+  }
+  #Card-title-2{
+    font-family: 'Ubuntu', sans-serif; 
+  }
+  #Card-text-3{
+    font-family: 'Ubuntu', sans-serif; 
+  }
+  #Card-title-3{
+    font-family: 'Ubuntu', sans-serif; 
+  }
+  .card .list-group .list-group-item{
+    font-family: 'Ubuntu', sans-serif; 
+  }
+  .card .card-text {
+    padding: 2.5rem 3rem;
+    color: var(--light-black);
+  } 
+  .card-title{
+    margin-top: 0.9rem;
+  }
+  .pricing >h1{
+    margin: 1rem auto;
+  }
+  
+  /*Acessories*/
+  .cover-1{
+    width: 100%;
+    height:80vmin;
+    background: url('./images/trinity-nguyen-0-gd_fkR70Y-unsplash.jpg');
+    background-position: -25rem -19rem;
+    background-size: 100%;
+    position: relative;
+    margin-top: 2rem;
+  }
+  .cover-1 .content{
+    background: rgba(0,0,0,0.1);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+  }
+  .cover-1 .content >h1{
+    font-family:'Ubuntu', sans-serif; 
+    color: whitesmoke;
+  }
+  .cover-1 .content >p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5vmin;
+    color: whitesmoke;
+    
+  }
+  .cover-1 .content >a{
+    margin-top: 1vmin;
+  }
+
+ /*Section-3*/
+  .section-3 {
+    height: 70vmin;
+    margin-top: 1vmin;
+    background: linear-gradient(to right, rgb(138, 35, 135), rgb(233, 64, 87), rgb(242, 113, 33));;
+  } 
+  .section-3 .col-md-12 > h1 {
+    padding: 2em 0 0.5em 0;
+    color: whitesmoke;
+    font-size: 6vmin;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .section-3 .col-md-12 > p {
+    padding: 0 4em;
+    padding-bottom: 2em;
+    color: rgba(255, 255, 255, 0.877);
+    font-size: 2.5vmin;
+  }
+  .section-3 .desktop {
+    background: white;
+    display: inline-block;
+    border-radius: 3em;
+    padding: 1vmin 3vmin;
+    margin: 1em;
+  }
+  .section-3 .desktop h4 {
+    /*font-size: 4vmin;*/
+    font-weight: bold;
+  }
+  .section-3 .desktop p {
+    font-size: 2vmin;
+  }
+  /*Section-4*/
+  .section-4 .container h1 {
+    font-size: 6vmin;
+    padding-top: 14vmin;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .section-4 .container p{
+    font-size: 3vmin;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .section-4 .team {
+    padding: 10vmin 4vmin;
+  }
+  .section-4 .card {
+    width: 22em;
+    margin-top: 8vmin;
+  }
+  
+  .section-4 .card .card-text {
+    padding: 0.5em;
+    
+  }
+  .section-4 .card .card-title{
+   color: #000;
+   
+  }
+  .section-4 .card-body > a {
+    font-size: 1.5em;
+  }
+  /*Footer Section*/
+  footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x:hidden ;
+    padding: 14vmin 18vmin;
+  }
+  footer p > span {
+    color: whitesmoke;
+  }
+  
+  footer input {
+    border: none !important;
+  }
+  footer input::placeholder {
+    color: white !important;
+  }
+  
+  footer .input-group .input-group-text {
+  background: linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));
+    border: none !important;
+  
+  }
+  
+  footer .column i {
+    color: whitesmoke
+  }
+  
+footer .column  a  {
+  padding:  0 0.5rem;
+}
+/*Media*/
+@media only screen and (max-width: 768px){
+  .section-1 .row .col-md-6 .panel {
+     height: 50vh;
+     padding: 5vmin 3vmin 5vmin 5vmin;
+  }
+
+  .section-1 .row .col-md-6 .pray video{
+      height: 55vh;
+      width: 30vh;
+  }
+  .section-1 .row .col-md-6 .pray{
+      padding-top: 1em;
+  }
+  .section-1 .row .col-md-6 .panel h1{
+      padding: 0.1em 0 !important;
+  }
+  .section-1 .row .col-md-6 .panel p{
+      padding: 0.1em 0;
+  }
+  .col-md-4 .card{
+      width: 21vh;
+      height: 53vh;
+     
+      
+  }
+  .section-4 .card .card-text {
+     font-size: 0.9rem;
+     padding: 0.1em;
+    }
+    .section-4 .card .card-title{
+     font-size: 1.2rem;
+     
+    }
+    .section-4 .card-body > a {
+      font-size: 1em;
+    }
+    .section-4 .card-body > p{
+      font-size: 00.9rem;
+    }
+    .cover-1 {
+      height: 60vmin;
+      background-position: -12rem -3rem;
+   } 
+   /*footer .col-md-2{} */
+
+}
+
+@media only screen and (min-width: 750px) {
+  
+  .far{
+      padding-right: 60vw;
+  } 
+
+}
+@media screen and (max-width: 767px) and (min-width: 375px){
+  .col-md-4 .card{
+      width: initial;
+      height: initial;
+        
+  }
+  .section-4 .card .card-text {
+      font-size: initial;
+      padding: initial;
+     }
+     .section-4 .card .card-title{
+      font-size: initial;
+      
+     }
+     .section-4 .card-body > a {
+       font-size: initial;
+     }
+     .section-4 .card-body > p{
+       font-size: initial;
+     }
+     .section-4{
+         padding-top: 10rem;
+     }
+     .platform{
+         padding-top: 2rem;
+     }
+     .cover-1 {
+      background-position: -12rem -1rem;
+   } 
+   .section-1 .row .col-md-6 .pray video{
+      height: 20vh;
+      width: 30vh;
+  }
+  .section-1 .row .col-md-6 .panel {
+     height: 60vh;
+     
+     
+  }
+  .cover-1 .content >h1{
+     font-size: 5vmin;
+    }
+    .section-3 .col-md-12 > h1{
+        font-size: 5vmin;
+    }
+    .cover .content >h1{
+      font-size: 5vmin;
+    }
+  #header{
+      height: 60vh;
+  }
+  .container .col-md-7 h1{
+   font-size: 5vmin;
+  }
+  .container .col-md-7 p{
+    font-size: 1vmin;
+  }
+}
